@@ -19,6 +19,9 @@ body{
 .header{
     height: 10%;
 }
+p{
+    text-transform: capitalize;
+}
 .header-btn{
     background-color:#107fad ;
     padding: 7px 10px;
@@ -26,5 +29,48 @@ body{
     text-transform: capitalize;
     float: right;
     margin-top: 15px;
+    font-weight: 700;
+
+}
+.movie-detailes{
+    margin: 1rem 2rem;
+}
+.cascading img{
+    height: 70px;
+    width: 60px;
+    margin: 7px;
+    cursor: pointer;
+    
+}
+.left-box a{
+    background-color:#107fad ;
+    padding: 7px 10px;
+    border-radius: 15px;
+    text-transform: capitalize;
+    /* font-weight: 700; */
+    color: white;
+    margin-top: 30px;
+    display: inline-block;
+}
+.download-btn{
+    background-color: transparent !important ;
+    border: 1px solid white;
+}
+.movie-image{
+    height:400px;
+    width: 400px;
+    box-shadow: -4px 4px 5px 0 red;
+    
+}
+.series-image img{
+    width: 60%;
+    margin-top: 5px;
+    box-shadow: -4px 4px 5px 0 red;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.series-image img:hover{
+    transform: translateY(-12);
 
 }
