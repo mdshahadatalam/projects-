@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8) ,rgba(0,0,0,0.8)) , url( sc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-position: center; */
+}
+.spiderman{
+    /* height: 70px; */
+    width: 70px;
+    /* border-radius: 100%; */
+    margin-top: 15px;
+    margin-left: 150px;
+}
+.header{
+    height: 10%;
+}
+.header-btn{
+    background-color:#107fad ;
+    padding: 7px 10px;
+    border-radius: 15px;
+    text-transform: capitalize;
+    float: right;
+    margin-top: 15px;
+
+}
